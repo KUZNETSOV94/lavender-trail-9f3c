@@ -370,7 +370,7 @@ QUIZ.screens = [
     placeholder: "Если ничего нет, так и напиши."
   },
 
-  { id: "thanks", type: "thanks", theme: "playful",
+  { id: "thanks", type: "thanks", section: 8, theme: "playful",
     title: "Спасибо, что ответила",
     text: "Тебе не нужно справляться со всем самостоятельно. Твои переживания заслуживают внимания и помощи."
   }

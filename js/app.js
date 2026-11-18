@@ -117,7 +117,7 @@
       return;
     }
     top.hidden = false;
-    els.back.hidden = index === 0;
+    els.back.hidden = index === 0 || (s.type === "thanks" && submitted);
     if (s.type === "thanks") {
       els.progMeta.innerHTML = `<span>Готово</span><span>${QUIZ.questionCount} из ${QUIZ.questionCount}</span>`;
       els.trailFill.style.width = "100%";
