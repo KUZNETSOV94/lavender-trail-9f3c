@@ -113,6 +113,7 @@
     const top = els.topbar;
     if (s.type === "welcome") {
       top.hidden = true;
+      els.back.hidden = true;
       return;
     }
     top.hidden = false;
